@@ -1,7 +1,7 @@
-n=int(input("Enter number: "))
-rev=0
-while(n>0):
-    dig=n%10
-    rev=rev*10+dig
-    n=n//10
-print("Reverse of the number:",rev)
+num=int(input("enter the three digit number"))
+a=num%10
+num=num//10
+b=num%10
+num=num//10
+c=num%10
+print("reverse of the number id",a*100+b*10+c)
