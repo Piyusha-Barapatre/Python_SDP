@@ -1,3 +1,3 @@
 r = float(input("Enter the radius of circle : "))
-c = 3.142 * r * r
+c = 2 * 3.142 * r
 print('Circumference of circle is ',c)
